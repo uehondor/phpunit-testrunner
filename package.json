@@ -1,0 +1,40 @@
+{
+  "name": "phpunit-testrunner",
+  "description": "Test Runner for PHPUnit.",
+  "homepage": "http://github.com/uehondor/phpunit-testrunner",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/uehondor/phpunit-testrunner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uehondor/phpunit-testrunner/issues"
+  },
+  "keywords": [
+    "PHPUnit",
+    "runner",
+    "js",
+    "javascript",
+    "testing",
+    "test"
+  ],
+  "author": "Uyi Ehondor",
+  "contributors": [
+  ],
+  "dependencies": {
+    "chokidar": "~0.6"
+  },
+  "peerDependencies": {
+
+  },
+  "devDependencies": {
+
+  },
+  "main": "./main",
+  "bin": {
+    "phpunit-testrunner": "./bin/phpunit-testrunner"
+  },
+  "engines": {
+    "node": "~0.8 || ~0.10"
+  },
+  "version": "0.0.1"
+}
