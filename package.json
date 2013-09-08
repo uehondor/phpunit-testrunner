@@ -21,7 +21,8 @@
   "contributors": [
   ],
   "dependencies": {
-    "chokidar": "~0.6"
+    "chokidar": "~0.6",
+    "optimist": "0.6.0"
   },
   "peerDependencies": {
 
@@ -29,7 +30,7 @@
   "devDependencies": {
 
   },
-  "main": "./main",
+  "main": "./lib/server",
   "bin": {
     "phpunit-testrunner": "./bin/phpunit-testrunner"
   },

@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var server = require('./../lib/server')
+
+var argv = require('optimist')
+    .usage('PHPUnit test-runner.\nUsage: $0 -c path/to/config/file')
+    .alias('c', 'config-file')
+    .demand('c')
+    .describe('c', 'Configuration file')
+    .argv;
+
+server.start(argv.c);
