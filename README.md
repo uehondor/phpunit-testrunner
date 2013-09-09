@@ -3,6 +3,8 @@ PHPUnit TestRunner
 
 This very simple test runner was inspired by karma (another test runner for javascript).
 
+Blog post: http://uyi.ehondor.com/blog/simple-php-testrunner-using-phpunit/
+
 #### How to install
 ```bash
 $ npm install phpunit-testrunner
@@ -29,9 +31,7 @@ Use the following as a template for the required configuration file.
 }
 ```
 
-Blog post: http://uyi.ehondor.com/blog/simple-php-testrunner-using-phpunit/
-
 ###TODO
-* Add a better documentation
+* Add better documentation
 * Add a `--version` option
 * Add unit tests
