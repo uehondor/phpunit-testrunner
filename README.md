@@ -29,6 +29,7 @@ Use the following as a template for the required configuration file.
 }
 ```
 
+Blog post: http://uyi.ehondor.com/blog/simple-php-testrunner-using-phpunit/
 
 ###TODO
 * Add a better documentation
